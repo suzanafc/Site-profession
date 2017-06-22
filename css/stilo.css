@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+html,body{
+    width: 100%;
+    height:100%;
+    font-size: 10px;   
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#menu{
+	position: fixed;
+	top:4%;
+	right: 2%;
+	color: black;
+	border-radius: 50%;
+	padding: 1%;
+	font-size: 2rem;
+	background-color: white;
+}
+
+.Wij-1,.Wij-2,.Wij-3 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 1.5%;
+}
+
+.Wij-1{
+	background: url(../img/img.jpg);
+	background-repeat: no-repeat; 
+	background-position: bottom center;
+	background-size: cover;	
+}
+
+.Wij-2{
+	background: url(../img/cabelereiro.jpg);
+	background-repeat: no-repeat; 
+	background-position: bottom center;
+	background-size: cover;	
+	
+}
+
+.Wij-3{
+	background: url(../img/maquiagem.jpg);
+	background-repeat: no-repeat; 
+	background-position: bottom center;
+	background-size: cover;	
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5rem;
+	font-weight: 600;
+	padding:0 10%;
+	line-height: 1.2;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+	padding:2% 10%;
+	margin-bottom: 2%;
+	line-height: 1.5;
+}
+
+.Wij-1 .color{
+	padding-top:7%;
+	background-color:#39312B;
+}
+
+.Wij-2 .color{
+	background-color:#413367;
+}
+
+.Wij-3 .color{
+	background-color:#c18966;
+}
+
+.color{
+	box-sizing: border-box;
+	color:white;
+	width: 50%;
+	height: 98.5%;
+	padding-top:10%;
+}
+
+.simbolo{
+	margin-left: 10%;
+	font-size: 1.6rem;
+	background-color:white;
+	padding: .9% 1.8%;
+	border-radius: 50%;
+	color: black; 
+}
+
+.ontdenk{
+	padding-left: 2%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+	color: white;
+}
+
+.inc-mini .grande {
+    font-size: 2rem;
+    line-height: .4;
+    color: white;
+    display: block;
+ }
+
+.inc-mini .medio {
+	padding-left: .4%;
+    font-size: 1.5rem;
+    line-height: .4;
+    color: white;
+    display: block;
+ }
+
+.inc-mini{
+	display: inline-block;
+	padding-left: 10%;
+
+}
+
+.numero{
+	padding-left: 2%;
+	display: inline-block;
+ 	position: relative;
+ }
+
+.sete{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 2.4rem;
+ }
+
+.barra{
+	position: absolute;
+	top: 2%;
+    left: 100%;
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 1.3rem;
+}
+
+.seta{
+	float: right;
+	clear: right;
+	color: white;
+	font-size: 1.6rem;
+	border:white 1px solid;
+	padding: .6% 1%;
+	border-radius: 50%;
+}
+
+.incone{
+	padding-right:3%;
+	padding-top: 11%;
+}
+
+.Wij-1 .incone{
+	padding-top: 7%;
+}
+
+.bespeak{
+	position: fixed;
+	top:4%;
+	left: 3%;
+	color: white;
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.bespeak img{
+	width: 3rem;
+	height: 2rem;
+}
