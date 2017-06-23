@@ -176,3 +176,203 @@ p{
 	width: 3rem;
 	height: 2rem;
 }
+
+@media screen and (max-width: 5700px) {
+	html,body{
+    		font-size: 34px;   
+		}
+	}
+
+@media screen and (max-width: 4700px) {
+		html,body{
+    		font-size: 25px;   
+		}
+		
+	}
+
+@media screen and (max-width: 3000px) {
+		html,body{
+    		font-size: 17px;   
+		}
+	
+	}
+
+@media screen and (max-width: 2100px) {
+		html,body{
+    		font-size: 13px;   
+		}
+	}
+
+@media screen and (max-width: 1900px) {
+		html,body{
+    		font-size: 12px;   
+		}
+	}
+
+@media screen and (max-width: 1600px) {
+	html,body{
+		font-size: 11px;   
+	}
+
+	
+}
+
+@media screen and (max-width: 1440px) {
+	html,body{
+    	font-size: 10px;   
+	}
+
+
+@media screen and (max-width: 1366px) and (min-height: 1024px) {
+	html,body{
+		font-size: 13px;	
+	}
+
+	.color {
+    	padding-top:18%;
+    	height: 95%;
+    	margin-top:2.5%;
+    	margin-left: 2%;
+	}
+
+	.Wij-1 .color {
+    	padding-top: 10%;
+    }
+
+    p{
+		padding: 5% 10%;
+	}
+
+
+	 h1{
+		padding-top:3%;
+	}
+	#menu {
+   		 top: 6%;
+   		}
+
+    .bespeak {
+    	top: 6%;
+    	left: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 768px) {
+	html,body{
+		font-size: 11px;	
+	}
+
+}
+
+@media screen and (max-width: 1024px) and (min-height: 1024px) {
+	html,body{
+		font-size: 10px;	
+	}
+
+	.color {
+		width:98%;
+		height: 60%;
+		margin-top:0;
+    	margin-left: 1.5%;
+    	padding-top:18%;
+	}
+
+	.Wij-1 .color {
+    	padding-top: 12%;
+    }
+
+	p{
+		font-size: 2.6rem;
+		padding: 3% 10%;
+	}
+
+	.Wij-1{
+		background-position: bottom right;
+	}
+
+	.Wij-2{
+		background-position: bottom right;
+	}
+
+	.Wij-3{
+		background-position: bottom right;
+	}
+
+	#menu {
+   		 right: 4%;
+   	}
+
+    .bespeak {
+    	left: 5%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+	html,body{
+		font-size: 7px;	
+	}
+
+
+@media screen and (max-width: 740px) {
+	html,body{
+		font-size: 6px;	
+	}
+
+@media screen and (max-width: 670px) {
+	html,body{
+		font-size: 5px;	
+	}
+
+
+@media screen and (max-width: 450px) {
+	html,body{
+		font-size: 5px;
+	}
+
+	.color {
+		width:98%;
+		height: 80%;
+		margin-top:10%;
+    	margin-left: 1.5%;
+	}
+	p{
+		font-size: 2.6rem;
+		padding: 3% 10%;
+	}
+
+	.Wij-1 .color {
+   		 padding-top: 25%;
+	}
+
+	.Wij-2 p, .Wij-3 p{
+		padding: 5% 10%;
+	}
+
+	.Wij-2 h1, .Wij-3 h1{
+		padding-top:3%;
+	}
+
+	.color {
+   		 padding-top: 35%;
+	}
+
+	.ontdenk {
+		font-size: 2rem;
+	}
+
+	#menu {
+   		 top: 8%;
+   		 right: 4%;
+   		}
+
+    .bespeak {
+    	top: 8%;
+    	left: 5%;
+    }
+}
+@media screen and (max-width: 320px){
+	p{
+		font-size: 2.2rem;
+	}
+
+}
