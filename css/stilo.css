@@ -177,44 +177,116 @@ p{
 	height: 2rem;
 }
 
+.esquerda{
+	position: absolute;
+	animation: aparece 2s;
+	bottom:0;
+	left: 0;	
+} 
+
+.lapis{
+	height: 2.5rem;
+	width: 40rem;
+	bottom: 10%;
+	left: 0;
+}
+
+.tesoura{
+	height: 18rem;
+	width: 26rem;	
+} 
+
+.prato{
+	height: 10rem;
+	width: 20rem;	
+}
+
+.cima{
+	position: absolute;
+	animation: pisca 5s;
+	top:5%;
+	left: 46%;	
+}
+
+.tempero{
+	height: 10rem;
+	width: 10rem;	
+}
+
+.pente{
+	top:4%;
+	left: 43%;
+	height: 28rem;
+	width: 18rem;
+}
+
+.cor{
+	left: 43%;
+	height: 18.6rem;
+	width: 12.9rem;
+}
+
+@keyframes pisca {
+	0%{
+	
+		opacity: 0;
+	}
+
+	100%{
+		
+		opacity: 1;
+	}
+
+}
+@keyframes aparece {
+	0%{
+	
+		left: -100%;
+	}
+
+	100%{
+		
+		left: 0%;
+	}
+
+}
+
 @media screen and (max-width: 5700px) {
 	html,body{
-    		font-size: 34px;   
-		}
+		font-size: 34px;   
 	}
+}
 
 @media screen and (max-width: 4700px) {
-		html,body{
-    		font-size: 25px;   
-		}
-		
+	html,body{
+		font-size: 25px;   
 	}
+		
+}
 
 @media screen and (max-width: 3000px) {
-		html,body{
-    		font-size: 17px;   
-		}
-	
+	html,body{
+		font-size: 17px;   
 	}
+	
+}
 
 @media screen and (max-width: 2100px) {
-		html,body{
-    		font-size: 13px;   
-		}
+	html,body{
+		font-size: 13px;   
 	}
+}
 
 @media screen and (max-width: 1900px) {
-		html,body{
-    		font-size: 12px;   
-		}
+	html,body{
+		font-size: 12px;   
 	}
+}
 
 @media screen and (max-width: 1600px) {
 	html,body{
 		font-size: 11px;   
 	}
-
-	
 }
 
 @media screen and (max-width: 1440px) {
@@ -243,13 +315,13 @@ p{
 		padding: 5% 10%;
 	}
 
-
 	 h1{
 		padding-top:3%;
 	}
+
 	#menu {
-   		 top: 6%;
-   		}
+   		top: 6%;
+   	}
 
     .bespeak {
     	top: 6%;
@@ -261,7 +333,6 @@ p{
 	html,body{
 		font-size: 11px;	
 	}
-
 }
 
 @media screen and (max-width: 1024px) and (min-height: 1024px) {
@@ -305,6 +376,19 @@ p{
     .bespeak {
     	left: 5%;
     }
+
+     .cima {
+    	top: 3%;
+    	left: 74%
+    }
+
+    .esquerda {
+    	bottom: 40%;
+    }
+
+    .lapis{
+    	bottom: 50%;
+    }
 }
 
 @media screen and (max-width: 970px) {
@@ -341,7 +425,7 @@ p{
 	}
 
 	.Wij-1 .color {
-   		 padding-top: 25%;
+   		padding-top: 25%;
 	}
 
 	.Wij-2 p, .Wij-3 p{
@@ -353,7 +437,7 @@ p{
 	}
 
 	.color {
-   		 padding-top: 35%;
+   		padding-top: 35%;
 	}
 
 	.ontdenk {
@@ -361,18 +445,44 @@ p{
 	}
 
 	#menu {
-   		 top: 8%;
-   		 right: 4%;
-   		}
+   		top: 8%;
+   		right: 4%;
+   	}
 
     .bespeak {
     	top: 8%;
     	left: 5%;
     }
+
+    .cima {
+    	top: 3%;
+    	left: 60%
+    }
+
+    .esquerda {
+    	bottom: 12%;
+    }
+
+    .lapis{
+    	bottom: 20%;
+    }
+
 }
 @media screen and (max-width: 320px){
-	p{
-		font-size: 2.2rem;
+	html,body{
+		font-size: 4px;
 	}
 
+@media screen and (max-width: 320px) and (max-height: 400px){
+	html,body{
+		font-size: 3.3px;
+	}
+
+	.Wij-1 .color , .color{
+    	padding-top: 2%;
+    }
+
+    .Wij-1 .incone {
+    	padding-top: 0;
+    }
 }
