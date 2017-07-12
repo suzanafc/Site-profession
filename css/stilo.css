@@ -9,7 +9,9 @@ html,body{
 *{
 	box-sizing: border-box;
 }
-
+body{
+	overflow-y: hidden;
+}
 #menu{
 	position: fixed;
 	top:4%;
@@ -26,6 +28,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	padding: 1.5%;
+	display: block;
 }
 
 .Wij-1{
